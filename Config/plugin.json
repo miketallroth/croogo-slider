@@ -1,0 +1,17 @@
+{
+	"name": "NivoSlider",
+	"description": "Nivo Slider plugin",
+
+	"author": "Mike Tallroth",
+	"authorEmail": "mike.tallroth@gmail.com",
+	"authorUrl": "http://github.com/miketallroth",
+
+	"dependencies": {
+		"plugins": [
+			"acl",
+			"extensions",
+			"nodes",
+			"migrations"
+		]
+	}
+}
