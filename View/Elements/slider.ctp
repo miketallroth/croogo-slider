@@ -7,7 +7,6 @@
 	// load required style and selected theme
 	$this->Html->css('NivoSlider.nivo-slider', array('inline'=>false));
 	$themeName = Configure::read('NivoSlider.themeName');
-	$themeName = 'light';
 	if (!empty($themeName)) {
 		$this->Html->css("NivoSlider.themes/{$themeName}/{$themeName}", array('inline'=>false));
 	}
