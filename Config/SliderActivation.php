@@ -1,15 +1,15 @@
 <?php
 /**
- * NivoSlider Activation
+ * Slider Activation
  *
- * Activation class for NivoSlider plugin.
+ * Activation class for Slider plugin.
  *
- * @package  NivoSlider
+ * @package  Slider
  * @author   Mike Tallroth <mike.tallroth@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://github.com/miketallroth/croogo-details
  */
-class NivoSliderActivation {
+class SliderActivation {
 
 	public function beforeActivation(Controller $controller) {
 		return true;

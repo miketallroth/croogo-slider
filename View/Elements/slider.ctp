@@ -2,13 +2,13 @@
 
 // TODO
 // need to write this to config/settings somewhere (when settings updated?)
-// Configure::write('NivoSlider.themeName','default');
+// Configure::write('Slider.themeName','default');
 
 	// load required style and selected theme
-	$this->Html->css('NivoSlider.nivo-slider', array('inline'=>false));
-	$themeName = Configure::read('NivoSlider.themeName');
+	$this->Html->css('Slider.nivo-slider', array('inline'=>false));
+	$themeName = Configure::read('Slider.themeName');
 	if (!empty($themeName)) {
-		$this->Html->css("NivoSlider.themes/{$themeName}/{$themeName}", array('inline'=>false));
+		$this->Html->css("Slider.themes/{$themeName}/{$themeName}", array('inline'=>false));
 	}
 	$sliderAlias = $block['Block']['alias'];
 
@@ -50,10 +50,10 @@
 
 	// setup required js to run slider
 	// commented jquery because it is loaded by default anyway (a different version)
-	if (Configure::read('NivoSlider.loadJquery')) {
+	if (Configure::read('Slider.loadJquery')) {
 		$this->Html->script('//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js', array('inline'=>false));
 	}
-	$this->Html->script('NivoSlider.jquery-nivo-slider-pack', array('inline'=>false));
+	$this->Html->script('Slider.jquery-nivo-slider-pack', array('inline'=>false));
 	$this->Html->scriptBlock("$(window).load(function() { $('#slider-{$sliderAlias}').nivoSlider(); });", array('inline'=>false));
 ?>
 

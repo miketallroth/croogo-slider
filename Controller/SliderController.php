@@ -1,16 +1,16 @@
 <?php
 
-App::uses('NivoSliderAppController', 'NivoSlider.Controller');
+App::uses('SliderAppController', 'Slider.Controller');
 
 /**
- * NivoSlider Controller
+ * Slider Controller
  *
- * @category NivoSlider.Controller
- * @package  NivoSlider
+ * @category Slider.Controller
+ * @package  Slider
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://github.com/miketallroth/croogo-slider
  */
-class NivoSliderController extends NivoSliderAppController {
+class SliderController extends SliderAppController {
 
 	public $uses = array(
 		'Nodes.Node',

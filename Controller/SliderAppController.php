@@ -3,14 +3,14 @@
 App::uses('AppController', 'Controller');
 
 /**
- * NivoSlider Application controller
+ * Slider Application controller
  *
  * @category Controllers
- * @package  NivoSlider
+ * @package  Slider
  * @author   Mike Tallroth <mike.tallroth@gmail.com>
  * @license  http://www.opensource.org/licenses/mit-license.php The MIT License
  * @link     http://github.com/miketallroth/croogo-slider
  */
-class NivoSliderAppController extends AppController {
+class SliderAppController extends AppController {
 
 }
