@@ -14,8 +14,8 @@
 
 	// get the associated content and its children (with images)
 	$content = $this->requestAction(array(
-		'plugin'=>'nivo_slider',
-		'controller'=>'nivo_slider',
+		'plugin'=>'slider',
+		'controller'=>'slider',
 		'action'=>'get_slider_content',
 		$sliderAlias,
 	), array('return'));
