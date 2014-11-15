@@ -50,6 +50,7 @@ class SliderController extends SliderAppController {
 				'Node.lft >' => $slider['Node']['lft'],
 				'Node.rght <' => $slider['Node']['rght'],
 			),
+			'order' => 'Node.lft',
 		));
 
 		$this->autoRender = false;
